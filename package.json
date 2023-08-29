@@ -1,0 +1,10 @@
+{
+  "name": "ice-cream-perseverance",
+  "version": "3.0.0",
+  "description": "",
+  "homepage": "https://sofira95.github.io/ice-cream-perseverance",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /ice-cream-perseverance/"
+  }
+}
