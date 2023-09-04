@@ -63,9 +63,14 @@ button {
 
 .nav__link {
   color: #fff;
+  transition: color 0.3s;
 }
 
 .active {
+  color: #d41443;
+}
+
+.nav__link:hover {
   color: #d41443;
 }
 
@@ -85,11 +90,13 @@ button {
 
 .button__icon {
   margin: 3px 0px 0px 7px;
+  fill: #d41443;
 }
 
 .button__clear {
   background-color: #fff;
   color: #d41443;
+  fill: #d41443;
 }
 
 .button__active {
@@ -132,9 +139,17 @@ button {
   text-align: center;
   font-size: 14px;
   font-weight: 400;
+  transition: color 0.3s;
+  fill: #d41443;
 }
 .banner__buttons .button__active {
   width: 107px;
+}
+
+.button:hover {
+  background-color: #d41443;
+  color: #fff;
+  fill: #fff;
 }
 
 .banner__slide {
@@ -159,6 +174,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  fill: #d41443;
   cursor: pointer;
 }
 
@@ -227,6 +243,11 @@ button {
 
 .grid__produccts {
   justify-content: space-between;
+  gap: 32px;
+}
+
+.products {
+  padding: 0px 16px 0px 16px;
 }
 
 .products__tittle {
@@ -256,6 +277,7 @@ button {
   justify-content: center;
   align-items: center;
   border-radius: 24px;
+  padding: 0px 32px 0px 32px;
 }
 
 .product--cream {
@@ -279,6 +301,11 @@ button {
   text-transform: uppercase;
 }
 
+.product__icon {
+  fill: #fff;
+  margin-top: 32px;
+}
+
 .product__description {
   text-align: center;
   color: #fff;
@@ -287,7 +314,14 @@ button {
   font-weight: 700;
   line-height: 28.16px;
   letter-spacing: 0.64px;
-  margin-top: 70px;
+  margin-top: 32px;
+}
+
+.product__button {
+  margin-top: 32px;
+  width: 38px;
+  height: 40px;
+  fill: #d41443;
 }
 
 .product__image {

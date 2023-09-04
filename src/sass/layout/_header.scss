@@ -18,11 +18,14 @@
 }
 .nav__link {
   color: $textClear;
+  transition: color 0.3s;
 }
 .active {
   color: $textActive;
 }
-
+.nav__link:hover {
+  color: #d41443;
+}
 .button {
   border-radius: 22px;
   width: 159px;
@@ -38,10 +41,12 @@
 }
 .button__icon {
   margin: 3px 0px 0px 7px;
+  fill: #d41443;
 }
 .button__clear {
   background-color: $textClear;
   color: $textActive;
+  fill: #d41443;
 }
 
 .button__active {

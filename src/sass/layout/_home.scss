@@ -28,10 +28,17 @@
     text-align: center;
     font-size: 14px;
     font-weight: 400;
+    transition: color 0.3s;
+    fill: #d41443;
   }
   .button__active {
     width: 107px;
   }
+}
+.button:hover {
+  background-color: #d41443;
+  color: $textClear;
+  fill: $textClear;
 }
 .banner__slide {
   margin-top: 40px;
@@ -53,6 +60,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  fill: #d41443;
   cursor: pointer;
 }
 .banner__elispsis-ice {

@@ -73,8 +73,8 @@
                   Indulge in a scoop of ice cream made with passion and treat
                   your taste buds to an unforgettable experience!
                 </p>
-                <button class="banner__button__slide flex">
-                  <svg class="button__icon" width="13" height="13">
+                <button class="button banner__button__slide" type="button">
+                  <svg class="button_icon" width="10" height="10">
                     <use href="./images/icons.svg#icon-arrow-right2"></use>
                   </svg>
                 </button>
@@ -128,11 +128,18 @@
                   height="394"
                 />
                 <h2 class="product__name">ice cream</h2>
+                <svg class="product__icon" width="26" height="6">
+                  <use href="./images/icons.svg#icon-points"></use>
+                </svg>
                 <p class="product__description">
                   Indulge in our rich and creamy ice cream, handcrafted with
                   all-natural ingredients and available in a variety of flavors.
                 </p>
-                <button class="button" type="button"></button>
+                <button class="button product__button" type="button">
+                  <svg class="" width="13" height="13">
+                    <use href="./images/icons.svg#icon-arrow-right2"></use>
+                  </svg>
+                </button>
               </article>
             </li>
             <li class="grid__products__item">
@@ -144,11 +151,18 @@
                   height="394"
                 />
                 <h2 class="product__name">ice coffee</h2>
+                <svg class="product__icon" width="26" height="6">
+                  <use href="./images/icons.svg#icon-points"></use>
+                </svg>
                 <p class="product__description">
                   Refresh and energize with our perfectly brewed iced coffee,
                   made with high-quality beans and served over ice.
                 </p>
-                <button class="button" type="button"></button>
+                <button class="button product__button" type="button">
+                  <svg class="button_icon" width="13" height="13">
+                    <use href="./images/icons.svg#icon-arrow-right2"></use>
+                  </svg>
+                </button>
               </article>
             </li>
             <li class="grid__products__item">
@@ -160,17 +174,60 @@
                   height="394"
                 />
                 <h2 class="product__name">milkshakes</h2>
+                <svg class="product__icon" width="26" height="6">
+                  <use href="./images/icons.svg#icon-points"></use>
+                </svg>
                 <p class="product__description">
                   Satisfy your sweet tooth with our thick, made with premium ice
                   cream, topped with whipped cream and your favorite toppings.
                 </p>
-                <button class="button" type="button"></button>
+                <button class="button product__button" type="button">
+                  <svg class="" width="13" height="13">
+                    <use href="./images/icons.svg#icon-arrow-right2"></use>
+                  </svg>
+                </button>
               </article>
             </li>
           </ul>
         </section>
+        <!-- ----------------------------------------------Fin Productos---------------------------------------- -->
       </div>
     </main>
+    <div data-modal class="menu__backdrop is-hidden">
+      <div class="menu__modal">
+        <button data-modal-close class="btn-close">
+          <svg class="icon-close icon" width="18" height="18">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <button type="submit" class="button button__clear">
+          Buy Now
+          <svg class="button__icon" width="10" height="10">
+            <use href="./images/icons.svg#icon-flecha"></use>
+          </svg>
+        </button>
+        <nav class="page-nav">
+          <ul class="nav">
+            <li class="nav__item">
+              <a class="nav__link active" href="">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="">About us</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="">How it?s made?</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="">Our products</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
     <include src="./partials/_section-05.html"></include>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
